@@ -1,7 +1,11 @@
 # Conda
-* ResolvePackageNotFound 
+* ERROR  
+PackagesNotFoundError: The following packages are not available from current channels:
 ```
 ResolvePackageNotFound:
   - cudatoolkit=11.3
 ```
-* conda install cudatoolkit=11.3 -c pytorch -c conda-forge
+* Solution
+```
+conda install cudatoolkit=11.3 -c pytorch -c conda-forge
+```
