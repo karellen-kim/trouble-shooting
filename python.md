@@ -10,3 +10,7 @@
 1. python@3.10 재설치 : `arch -x86_64 /usr/local/Homebrew/bin/brew install python@3.10`
 1. poetry 재설치 : `arch -x86_64 /usr/local/Homebrew/bin/brew install poetry`
 1. `echo 'alias brew="arch -x86_64 /usr/local/Homebrew/bin/brew"' >> ~/.zshrc`
+* poetry bad interpreter: No such file or directory 발생시
+1. `/opt/homebrew/bin/brew uninstall poetry`
+1. `arch -x86_64 /usr/local/Homebrew/bin/brew poetry`
+1. `brew link poetry`
