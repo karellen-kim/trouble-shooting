@@ -26,3 +26,5 @@
 1. sd-v1-4.ckpt 다운 받고 `https://huggingface.co/CompVis/stable-diffusion-v-1-4-original#download-the-weights`
 1. `models/ldm/stable-diffusion-v1/model.ckpt`로 저장
 * 참고 : https://replicate.com/blog/run-stable-diffusion-on-m1-mac
+* https://huggingface.co/spaces/stabilityai/stable-diffusion
+* https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts/
