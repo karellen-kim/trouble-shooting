@@ -7,3 +7,6 @@
 1. `brew uninstall --force poetry`
 1. `brew doctor`
 1. `brew cleanup`
+1. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+1. `echo 'alias brew="arch -x86_64 /usr/local/bin/brew"' >> ~/.alias`
+1. `source ~/.zshrc`
